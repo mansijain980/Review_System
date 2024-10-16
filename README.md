@@ -52,5 +52,20 @@ MySQL
    pip install -r requirements.txt
    ~~~
 
+5. Run migrations to set up the database schema:
+   
+   ~~~
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+   ~~~
+
+4. Access the Django admin panel to manage movies:
+   Navigate to http://127.0.0.1:8000/admin/ and log in using the superuser credentials.
+
+
+## Below are some screenshots:-
+
    ![image](https://github.com/user-attachments/assets/7e8cf635-1fd1-46b1-9aba-bc149d54357c)
 
