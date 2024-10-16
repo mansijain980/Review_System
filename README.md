@@ -1,14 +1,14 @@
 ## REVIEW SCRAPING SYSTEM
 
-The Review Scraper is a web scraping tool designed to extract reviews from various product pages. This system utilizes a combination of Playwright for browser automation and BeautifulSoup for HTML parsing, making it capable of navigating through complex web pages to retrieve
-relevant review data. The scraped reviews are processed using the BLOOM language model to generate insightful summaries, enabling users to quickly understand customer sentiments and product feedback.
+**The Review Scraper is a web scraping tool designed to extract reviews from various product pages. This system utilizes a combination of Playwright for browser automation and BeautifulSoup for HTML parsing, making it capable of navigating through complex web pages to retrieve
+relevant review data. The scraped reviews are processed using the BLOOM language model to generate insightful summaries, enabling users to quickly understand customer sentiments and product feedback.**
 
 #### Features
 
-Dynamic CSS Selector Identification: Utilizes Large Language Models (LLMs) to identify and extract reviews from dynamically loaded pages.<br />
-Pagination Handling: Implements logic to navigate through multiple pages of reviews, ensuring comprehensive data extraction.<br />
-Universal Compatibility: Designed to work with any product review page, offering flexibility in use across various e-commerce platforms.<br />
-LLM Integration: Integrates the BLOOM model for processing reviews, generating concise summaries that enhance the quality of the extracted information.<br />
+**Dynamic CSS Selector Identification: Utilizes Large Language Models (LLMs) to identify and extract reviews from dynamically loaded pages.<br />**
+**Pagination Handling: Implements logic to navigate through multiple pages of reviews, ensuring comprehensive data extraction.<br />**
+**Universal Compatibility: Designed to work with any product review page, offering flexibility in use across various e-commerce platforms.<br />**
+**LLM Integration: Integrates the BLOOM model for processing reviews, generating concise summaries that enhance the quality of the extracted information.<br />**
 
 
 #### Technologies Used
@@ -51,3 +51,6 @@ MySQL
    ~~~
    pip install -r requirements.txt
    ~~~
+
+   ![image](https://github.com/user-attachments/assets/7e8cf635-1fd1-46b1-9aba-bc149d54357c)
+
